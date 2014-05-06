@@ -1,7 +1,7 @@
 {
-  "name": "grunt-sass",
+  "name": "grunt-sass-utf-8-fn",
   "version": "0.12.1",
-  "description": "Compile SCSS to CSS using node-sass",
+  "description": "Compile SCSS to CSS using node-sass with utf-8 filenames support",
   "keywords": [
     "gruntplugin",
     "css",
@@ -14,11 +14,11 @@
     "libsass"
   ],
   "author": {
-    "name": "Sindre Sorhus",
+    "name": "Sindre Sorhus (Forked by Florian Mounier)",
     "email": "sindresorhus@gmail.com",
     "url": "http://sindresorhus.com"
   },
-  "repository": "sindresorhus/grunt-sass",
+  "repository": "paradoxxxzero/grunt-sass",
   "scripts": {
     "test": "grunt"
   },

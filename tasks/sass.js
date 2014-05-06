@@ -32,7 +32,7 @@ module.exports = function (grunt) {
 			}
 
 			var renderOpts = {
-				file: src,
+				file: unescape(encodeURIComponent(src)),
 				success: function (css, map) {
 					grunt.file.write(el.dest, css);
 					grunt.log.writeln('File ' + chalk.cyan(el.dest) + ' created.');
